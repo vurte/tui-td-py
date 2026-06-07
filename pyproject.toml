@@ -41,8 +41,8 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/tui-td/tui-td-py"
-Repository = "https://github.com/tui-td/tui-td-py"
+Homepage = "https://github.com/vurte/tui-td-py"
+Repository = "https://github.com/vurte/tui-td-py"
 
 [tool.hatch.build.targets.wheel]
 packages = ["tui_td"]

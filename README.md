@@ -13,22 +13,25 @@ Official Python wrapper for [tui-td](https://github.com/tui-td/tui-td) — TUI t
 |----------|---------|-------------|
 | **Python** | 3.10+ | [python.org](https://python.org) or `brew install python` |
 | **Ruby** | 3.0+ | [rbenv](https://github.com/rbenv/rbenv) or `brew install ruby` |
-| **tui-td** (Ruby gem) | 0.2.20+ | `gem install tui-td` |
+| **tui-td** (Ruby gem) | 0.2.21+ | `gem install tui-td` |
 
 ```bash
-# Install Ruby + tui-td
-brew install ruby
+# Install Ruby via rbenv (recommended) or brew
+rbenv install 3.4.2     # https://github.com/rbenv/rbenv
+# or: brew install ruby  # https://brew.sh
+
+# Install tui-td
 gem install tui-td
 
 # Verify
 tui-td --version
-# => tui-td 0.2.20
+# => tui-td 0.2.21
 ```
 
 ## Installation
 
 ```bash
-pip install git+https://gitlab.com/haluk786/tui-td-py.git
+pip install git+https://github.com/vurte/tui-td-py.git
 ```
 
 ## Quick Start
